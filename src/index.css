@@ -1,0 +1,118 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 250 100% 99%;
+    --foreground: 250 60% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 250 60% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 250 60% 10%;
+
+    --primary: 246 80% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 262 60% 63%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 250 10% 90%;
+    --muted-foreground: 250 10% 50%;
+
+    --accent: 187 100% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 250 10% 90%;
+    --input: 250 10% 90%;
+    --ring: 246 80% 60%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 250 30% 15%;
+    --sidebar-foreground: 250 10% 95%;
+    --sidebar-primary: 246 80% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 262 60% 63%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 250 20% 20%;
+    --sidebar-ring: 246 80% 60%;
+  }
+
+  .dark {
+    --background: 250 30% 10%;
+    --foreground: 250 10% 95%;
+
+    --card: 250 30% 15%;
+    --card-foreground: 250 10% 95%;
+
+    --popover: 250 30% 15%;
+    --popover-foreground: 250 10% 95%;
+
+    --primary: 246 80% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 262 60% 63%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 250 20% 20%;
+    --muted-foreground: 250 10% 70%;
+
+    --accent: 187 100% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 250 20% 20%;
+    --input: 250 20% 20%;
+    --ring: 246 80% 60%;
+    
+    --sidebar-background: 250 30% 8%;
+    --sidebar-foreground: 250 10% 95%;
+    --sidebar-primary: 246 80% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 262 60% 63%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 250 20% 20%;
+    --sidebar-ring: 246 80% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .chat-bubble {
+    @apply relative p-3 rounded-2xl max-w-[80%] break-words;
+  }
+  
+  .sent-message {
+    @apply bg-primary text-primary-foreground ml-auto rounded-tr-none;
+  }
+  
+  .received-message {
+    @apply bg-muted text-foreground mr-auto rounded-tl-none;
+  }
+  
+  .qr-container {
+    @apply p-6 bg-white rounded-lg shadow-lg;
+  }
+  
+  .settings-option {
+    @apply flex items-center justify-between p-4 border-b border-border;
+  }
+}

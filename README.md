@@ -14,7 +14,7 @@ A secure chat application that uses QR codes to establish connections between us
 
 ## Project Structure
 
-- `/src` - Frontend React applicatio
+- `/src` - Frontend React application
 - `/backend` - Go backend API
 
 ## Setup Instructions

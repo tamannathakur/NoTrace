@@ -3,6 +3,9 @@
 
 A secure chat application that uses QR codes to establish connections between users.
 
+[NoTrace_demo](./notrace.mp4)
+
+
 ## Features
 
 - User authentication (register, login)

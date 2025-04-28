@@ -65,6 +65,5 @@ The API provides endpoints for:
 
 ### Backend
 - Go
-- Gin web framework
 - PostgreSQL database
 - WebSockets (Gorilla)

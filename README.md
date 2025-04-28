@@ -3,8 +3,7 @@
 
 A secure chat application that uses QR codes to establish connections between users.
 
-https://github.com/user-attachments/assets/09438bf5-8b20-4b13-b474-72ceb55702ec
-
+https://github.com/user-attachments/assets/4165f07b-984d-45e8-bb53-bec9f5ca6c21
 
 ## Features
 

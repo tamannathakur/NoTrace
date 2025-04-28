@@ -24,7 +24,6 @@ https://github.com/user-attachments/assets/4165f07b-984d-45e8-bb53-bec9f5ca6c21
 - Node.js
 - Go 
 - PostgreSQL
-- Docker and Docker Compose 
 
 
 ### Manual Setup

@@ -31,6 +31,8 @@ https://github.com/user-attachments/assets/4165f07b-984d-45e8-bb53-bec9f5ca6c21
 
 #### Backend
 
+RUN BACKEND ON PORT 8080
+
 1. Navigate to the backend directory: `cd backend`
 2. Edit the .env file with your database connection details
 3. Install dependencies: `go mod download`
